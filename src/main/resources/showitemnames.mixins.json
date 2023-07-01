@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.pedroricardo.showitemnames.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ShowItemNameMixin",
+    "ShowItemNameMixin$GuiIngameAccessors"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

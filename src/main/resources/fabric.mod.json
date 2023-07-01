@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "showitemnames",
+  "version": "${version}",
+
+  "name": "ShowItemNames",
+  "description": "This mod makes item names show over the hotbar.",
+  "authors": [
+    "Pedro Ricardo"
+  ],
+  "contact": {
+    "homepage": "https://pedroricardo.net",
+    "sources": "https://github.com/Pedro270707/showitemnames-bta"
+  },
+
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.pedroricardo.showitemnames.ShowItemNames"
+    ]
+  },
+  "mixins": [
+    "showitemnames.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3"
+  },
+  "suggests": {
+  }
+}
